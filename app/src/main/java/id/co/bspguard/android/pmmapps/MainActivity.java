@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MainActivity.this.setTitle("Home");
+
 
         hitung = (Button) findViewById(R.id.button);
         alas = (EditText) findViewById(R.id.alas);

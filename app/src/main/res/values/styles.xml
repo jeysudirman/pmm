@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextLabel" parent="AppTheme">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#282828</item>
+        <item name="android:textSize">15dp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="borderlessButtonStyle">@style/Base.Widget.AppCompat.Button.Borderless</item>
+        <item name="colorAccent">#282828</item>
+        <item name="colorControlNormal">#282828</item>
+        <item name="colorControlActivated">#282828</item>
+    </style>
+
+
 </resources>
