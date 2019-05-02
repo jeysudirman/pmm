@@ -1,5 +1,6 @@
 package id.co.bspguard.android.pmmapps;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,9 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button hitung;
+    Button hitung, go_contact;
     EditText alas, tinggi;
     TextView hasil;
     @Override
@@ -37,11 +38,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        go_contact = (Button) findViewById(R.id.contact);
+        go_contact.setOnClickListener(this);
+
 
     }
 
     public Double rumus(Double alas, Double tinggi){
         Double segitiga = 0.5 * alas * tinggi;
         return segitiga;
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.contact:
+                Intent goContact = new Intent(getApplication(), Contact.class);
+                getApplication().startActivity(goContact);
+                break;
+            case R.id.button:
+                break;
+            default:
+                break;
+        }
     }
 }
