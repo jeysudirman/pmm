@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".Hasil">
+
+  <RelativeLayout
+    android:id="@+id/hasilhitung"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="bottom"
+    android:background="@color/colorWhite"
+    android:layout_marginLeft="12dp">
+
+    <TextView
+      android:id="@+id/labelrincian"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:autoSizeMaxTextSize="100sp"
+      android:autoSizeMinTextSize="14sp"
+      android:autoSizeStepGranularity="2sp"
+      android:autoSizeTextType="uniform"
+      android:text="RINCIAN HASIL HITUNG SEGITIGA"
+      android:textColor="@color/textblue"
+      android:textSize="14sp" />
+
+    <RelativeLayout
+      android:id="@+id/hasilalas"
+      android:layout_below="@+id/labelrincian"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/graytext"
+      android:padding="5dp"
+      android:layout_marginTop="5dp">
+
+      <TextView
+        android:id="@+id/text1"
+        android:text="Alas"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+      <TextView
+        android:layout_toRightOf="@+id/text1"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:id="@+id/valuealas"
+        android:text="0"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/hasiltinggi"
+      android:layout_below="@+id/hasilalas"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="5dp">
+
+      <TextView
+        android:id="@+id/text2"
+        android:text="Tinggi"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+      <TextView
+        android:layout_toRightOf="@+id/text2"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:id="@+id/valuetinggi"
+        android:text="0"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/hasil"
+      android:layout_below="@+id/hasiltinggi"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/graytext"
+      android:padding="5dp">
+
+      <TextView
+        android:id="@+id/text3"
+        android:text="Hasil"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+      <TextView
+        android:layout_toRightOf="@+id/text3"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:id="@+id/valuehasil"
+        android:text="0"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+      android:id="@+id/labelpersegi"
+      android:layout_below="@+id/hasil"
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:autoSizeMaxTextSize="100sp"
+      android:autoSizeMinTextSize="14sp"
+      android:autoSizeStepGranularity="2sp"
+      android:autoSizeTextType="uniform"
+      android:text="RINCIAN HASIL HITUNG PERSEGI PANJANG"
+      android:textColor="@color/textblue"
+      android:textSize="14sp" />
+
+    <RelativeLayout
+      android:id="@+id/hasilpersegi"
+      android:layout_below="@+id/labelpersegi"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/graytext"
+      android:padding="5dp"
+      android:layout_marginTop="5dp">
+
+      <TextView
+        android:id="@+id/text4"
+        android:text="Panjang"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+      <TextView
+        android:layout_toRightOf="@+id/text4"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:id="@+id/valuepanjang"
+        android:text="0"
+        android:textColor="@color/blacktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+  </RelativeLayout>
+
+</ScrollView>

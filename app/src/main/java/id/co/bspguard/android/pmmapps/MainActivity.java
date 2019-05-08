@@ -36,9 +36,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Double result = rumus(param_satu, param_dua);
                 hasil.setText("Hasil =" + String.valueOf(result));
 
+                Bundle bundle = new Bundle();
+                bundle.putString("alas", alas.getText().toString());
+                bundle.putString("tinggi", tinggi.getText().toString());
+                bundle.putString("hasil", String.valueOf(result));
+
+                Intent intent = new Intent(MainActivity.this, Hasil.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+                /**
+                 * Melalui intent
+                 */
+            //        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            //        intent.putExtra("alas", alas.getText().toString());
+            //        intent.putExtra("tinggi", tinggi.getText().toString());
+            //        intent.putExtra("hasil", String.valueOf(result));
+            //        startActivity(intent);
+
                 Toast.makeText(getApplication(),"Hasil =" + String.valueOf(result), Toast.LENGTH_LONG).show();
             }
         });
+
 
         go_contact = (Button) findViewById(R.id.contact);
         go_contact.setOnClickListener(this);
@@ -55,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.contact:
-                Intent goContact = new Intent(getApplication(), Contact.class);
+                Intent goContact = new Intent(MainActivity.this, Contact.class);
                 getApplication().startActivity(goContact);
                 break;
             case R.id.button:
