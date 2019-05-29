@@ -1,6 +1,8 @@
 package id.co.bspguard.android.pmmapps;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,6 +10,8 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import org.json.JSONObject;
 
 public class Login extends AppCompatActivity {
   EditText _emailText, _passwordText;
@@ -49,12 +53,20 @@ public class Login extends AppCompatActivity {
           String haspassword = "demo123";
           String email = _emailText.getText().toString();
           String password = _passwordText.getText().toString();
-          Log.d("debug", "hasemail:" + hasemail + "email" + email);
-          Log.d("debug", "haspassword:" + haspassword + "password" + password);
 
           try{
             if(email.equals(hasemail) && password.equals(haspassword) ){
               onLooginSuccess();
+
+
+              SharedPreferences prefs = PreferenceManager
+                      .getDefaultSharedPreferences(Login.this);
+              SharedPreferences.Editor lds = prefs.edit();
+              lds.putString("email", email);
+              lds.putString("password", password);
+              lds.commit();
+
+
               Intent intent = new Intent(Login.this, MainActivity.class);
               startActivity(intent);
             }else{

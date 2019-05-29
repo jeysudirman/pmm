@@ -1,8 +1,11 @@
 package id.co.bspguard.android.pmmapps;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button hitung, go_contact;
+    Button hitung, go_contact, signout;
     EditText alas, tinggi;
     TextView hasil;
     @Override
@@ -62,6 +65,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         go_contact = (Button) findViewById(R.id.contact);
         go_contact.setOnClickListener(this);
 
+        signout = (Button) findViewById(R.id.logout);
+        signout.setOnClickListener(this);
+
 
     }
 
@@ -78,6 +84,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 getApplication().startActivity(goContact);
                 break;
             case R.id.button:
+                break;
+            case R.id.logout:
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+                String email = prefs.getString("email", null);
+                String password = prefs.getString("password", null);
+                Log.d("debug", "email:" + email + "password" + password);
+
+                if(email != null && password != null) {
+
+                    final SharedPreferences sesdata = PreferenceManager
+                            .getDefaultSharedPreferences(MainActivity.this);
+                    SharedPreferences.Editor lds = sesdata.edit();
+                    lds.clear();
+                    lds.commit();
+
+                    Intent intentLogin = new Intent(MainActivity.this, Login.class);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    MainActivity.this.startActivity(intentLogin);
+
+                }
                 break;
             default:
                 break;
