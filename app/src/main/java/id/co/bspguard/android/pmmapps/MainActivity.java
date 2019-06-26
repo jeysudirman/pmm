@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import id.co.bspguard.android.pmmapps.ContactUser.MainContact;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button hitung, go_contact, signout;
@@ -80,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.contact:
-                Intent goContact = new Intent(MainActivity.this, Contact.class);
+                Intent goContact = new Intent(MainActivity.this, MainContact.class);
                 getApplication().startActivity(goContact);
                 break;
             case R.id.button:
