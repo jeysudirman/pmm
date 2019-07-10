@@ -45,8 +45,18 @@
         android:background="@drawable/rounded"/>
 
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/addcontact"
         android:layout_below="@+id/contact"
+        android:text="ADD CONTACT"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_below="@+id/addcontact"
         android:text="LOGOUT"
         android:textColor="#ffffff"
         android:layout_marginTop="10dp"

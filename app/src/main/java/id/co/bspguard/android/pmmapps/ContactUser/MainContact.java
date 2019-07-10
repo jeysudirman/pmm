@@ -25,7 +25,6 @@ public class MainContact extends AppCompatActivity {
     VolleyObjectResult volleyObjectResult, vor = null;
     VolleyObjectService volleyObjectService, vos;
     Fungsi fungsi = new Fungsi();
-    String url = "http://7f9a387a.ngrok.io/kontak";
     private List<ContactDataSet> list = new ArrayList<ContactDataSet>();
     private ContactAdapter contactAdapter;
     JSONObject data = null;
@@ -40,6 +39,7 @@ public class MainContact extends AppCompatActivity {
         vor = new VolleyObjectResult() {
             @Override
             public void resSuccess(String requestType, JSONObject response) {
+//                Toast.makeText(MainContact.this, response.toString(), Toast.LENGTH_LONG).show();
 
                 try {
                     JSONArray jsonArray = response.getJSONArray("values");
@@ -67,6 +67,6 @@ public class MainContact extends AppCompatActivity {
             }
         };
         vos = new VolleyObjectService(vor, MainContact.this);
-        vos.getJsonObject("GETCALL", url);
+        vos.getJsonObject("GETCALL", fungsi.url());
     }
 }

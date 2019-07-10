@@ -12,11 +12,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import id.co.bspguard.android.pmmapps.ContactUser.Insert;
 import id.co.bspguard.android.pmmapps.ContactUser.MainContact;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button hitung, go_contact, signout;
+    Button hitung, go_contact, signout, addcontact;
     EditText alas, tinggi;
     TextView hasil;
     @Override
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         alas = (EditText) findViewById(R.id.alas);
         tinggi = (EditText) findViewById(R.id.tinggi);
         hasil = (TextView) findViewById(R.id.hasil);
+        addcontact = (Button) findViewById(R.id.addcontact);
 
 
         hitung.setOnClickListener(new View.OnClickListener() {
@@ -70,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signout = (Button) findViewById(R.id.logout);
         signout.setOnClickListener(this);
 
+        addcontact.setOnClickListener(this);
 
     }
 
@@ -83,7 +86,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.contact:
                 Intent goContact = new Intent(MainActivity.this, MainContact.class);
-                getApplication().startActivity(goContact);
+                goContact.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainActivity.this.startActivity(goContact);
                 break;
             case R.id.button:
                 break;
@@ -107,6 +111,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     MainActivity.this.startActivity(intentLogin);
 
                 }
+                break;
+            case R.id.addcontact:
+                Intent addContact = new Intent(MainActivity.this, Insert.class);
+                addContact.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainActivity.this.startActivity(addContact);
                 break;
             default:
                 break;
