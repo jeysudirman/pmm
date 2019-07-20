@@ -30,6 +30,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="id.co.bspguard.android.pmmapps.Inventory.main_inventory" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.MainContact" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.Update" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.Insert" />

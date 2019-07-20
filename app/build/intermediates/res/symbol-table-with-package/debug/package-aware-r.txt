@@ -918,6 +918,7 @@ layout activity_insert
 layout activity_login
 layout activity_main
 layout activity_main_contact
+layout activity_main_inventory
 layout activity_splash_screen
 layout activity_update
 layout list_contact

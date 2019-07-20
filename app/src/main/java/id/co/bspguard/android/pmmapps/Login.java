@@ -10,12 +10,27 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.android.volley.VolleyError;
 
 import org.json.JSONObject;
+
+import java.util.HashMap;
+
+import id.co.bspguard.android.pmmapps.ContactUser.Insert;
+import id.co.bspguard.android.pmmapps.functions.Fungsi;
+import id.co.bspguard.android.pmmapps.functions.VolleyObjectResult;
+import id.co.bspguard.android.pmmapps.functions.VolleyObjectService;
 
 public class Login extends AppCompatActivity {
   EditText _emailText, _passwordText;
   Button _loginButton;
+  VolleyObjectResult volleyObjectResult, vor = null;
+  VolleyObjectService volleyObjectService, vos;
+  Fungsi fungsi = new Fungsi();
+  String url = "/dologin";
+  JSONObject data = null;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -49,33 +64,50 @@ public class Login extends AppCompatActivity {
       new Runnable() {
         @Override
         public void run() {
-          String hasemail = "aku@kamu.com";
-          String haspassword = "demo123";
-          String email = _emailText.getText().toString();
-          String password = _passwordText.getText().toString();
 
-          try{
-            if(email.equals(hasemail) && password.equals(haspassword) ){
-              onLooginSuccess();
-
-
-              SharedPreferences prefs = PreferenceManager
-                      .getDefaultSharedPreferences(Login.this);
-              SharedPreferences.Editor lds = prefs.edit();
-              lds.putString("email", email);
-              lds.putString("password", password);
-              lds.commit();
+//          String hasemail = "aku@kamu.com";
+//          String haspassword = "demo123";
+          final String email = _emailText.getText().toString();
+          final String password = _passwordText.getText().toString();
+          HashMap<String, String> di = new HashMap<String, String>();
+          di.put("email", email);
+          di.put("password", password);
+          final JSONObject data = new JSONObject(di);
+          vor = new VolleyObjectResult() {
+            @Override
+            public void resSuccess(String requestType, JSONObject response) {
+              if(email.equals(email) && password.equals(password) ){
+                onLooginSuccess();
 
 
-              Intent intent = new Intent(Login.this, MainActivity.class);
-              startActivity(intent);
-            }else{
-              onLoginFailed();
+                SharedPreferences prefs = PreferenceManager
+                        .getDefaultSharedPreferences(Login.this);
+                SharedPreferences.Editor lds = prefs.edit();
+                lds.putString("email", email);
+                lds.putString("password", password);
+                lds.commit();
+
+
+                Intent intent = new Intent(Login.this, MainActivity.class);
+                startActivity(intent);
+              }else{
+                onLoginFailed();
+              }
             }
-          } catch (Exception e) {
-            onLoginFailed();
-            e.printStackTrace();
-          }
+
+            @Override
+            public void resError(String requestType, VolleyError error) {
+
+            }
+//            (Exception e) {
+//              onLoginFailed();
+//              e.printStackTrace();
+//            }
+//
+          };
+          vos = new VolleyObjectService(vor, Login.this );
+          vos.postJsonObject("POSTCALL", fungsi.url() + url, data);
+
         }
         }, 3000L);
   }
@@ -112,3 +144,4 @@ public class Login extends AppCompatActivity {
   }
 
 }
+
