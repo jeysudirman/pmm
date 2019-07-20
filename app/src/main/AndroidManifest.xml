@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContactUser.MainContact"></activity>
+        <activity android:name=".Inventory.main_inventory"></activity>
+        <activity android:name=".ContactUser.MainContact" />
         <activity android:name=".ContactUser.Update" />
         <activity android:name=".ContactUser.Insert" />
         <activity android:name=".Login" />

@@ -1,0 +1,232 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7f116c548f6fe489e228fcb37a69e2b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saldi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3bd8bf5ee4cb8356a3baa8d2fe2ed86e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/facc4724b59ea0e69100613aea728b9f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e74b158e373bb6f72a9799d999864b65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a7ca27de4e7226e51022f1e11b4990e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/674f690aa7719521fc1cd23d4428bdfe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76fc1b59c6a77da29a9ad779406ca7be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/22e2df2c518d70d364e15963a1449ab1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/341852c667b168499683071986b1a036/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d8d564169f5e63bd2a1cac33525b3ba6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/af67c20450c4b7944e54ed70f95148cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0ec7ec756ef50e31965f1ae55dd3ea11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/56ab4197bc232399c02a5674bfad7b5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4fccc57f7c88fa6b9ef4d8a04d4e60b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4b215fab50297e39ca45cb7278637f73/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bbb2059b18b632ade93b8dede7195ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8b278e46fcb53d5b35bcde6350042044/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/70dd06ccb6aced2bc91fe89f3f029d9c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/383e71942360aa2e9e6c2f9319fe91d7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0fd967cbcdf28153f4f311910a55133c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e2a693551722565e8c790eebb789d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9c9df3186f0b9dee03a519124804039f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/857888bf50b543e6d3f0cb2ec6bc64af/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f3129c51767b52de42d9aaa9d3f9271/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4adc03e38c5c53f8a2af52ac807f906e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f0e41fe2eaa22cae2b64f2b246b7784/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/46a97cadc2e5da3e1e9cdc6a2ec870bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/14714f3cbae82775c654163dbe4cc93f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#com.android.internal.policy.PhoneWindow
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#com.samsung.android.provider.filterprovider.permission.READ_FILTER
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:11:5-106
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:11:22-103
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:12:5-117
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:12:22-114
+uses-permission#com.samsung.android.motion.IMotionRecognitionService
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:13:5-92
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:13:22-89
+uses-permission#com.samsung.android.*
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:14:5-61
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:14:22-58
+application
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:16:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saldi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3bd8bf5ee4cb8356a3baa8d2fe2ed86e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saldi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3bd8bf5ee4cb8356a3baa8d2fe2ed86e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/facc4724b59ea0e69100613aea728b9f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/facc4724b59ea0e69100613aea728b9f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/70dd06ccb6aced2bc91fe89f3f029d9c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/70dd06ccb6aced2bc91fe89f3f029d9c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:22:9-40
+activity#id.co.bspguard.android.pmmapps.ContactUser.MainContact
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:23:19-58
+activity#id.co.bspguard.android.pmmapps.ContactUser.Update
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:24:19-53
+activity#id.co.bspguard.android.pmmapps.ContactUser.Insert
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:25:9-56
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:25:19-53
+activity#id.co.bspguard.android.pmmapps.Login
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:26:9-43
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:26:19-40
+activity#id.co.bspguard.android.pmmapps.SplashScreen
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:theme
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:33:27-74
+activity#id.co.bspguard.android.pmmapps.Hasil
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:36:9-43
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:36:19-40
+activity#id.co.bspguard.android.pmmapps.Contact
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:37:9-45
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:37:19-42
+activity#id.co.bspguard.android.pmmapps.MainActivity
+ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:38:9-50
+	android:name
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml:38:19-47
+uses-sdk
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7f116c548f6fe489e228fcb37a69e2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7f116c548f6fe489e228fcb37a69e2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saldi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3bd8bf5ee4cb8356a3baa8d2fe2ed86e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saldi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3bd8bf5ee4cb8356a3baa8d2fe2ed86e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/facc4724b59ea0e69100613aea728b9f/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/facc4724b59ea0e69100613aea728b9f/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e74b158e373bb6f72a9799d999864b65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e74b158e373bb6f72a9799d999864b65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a7ca27de4e7226e51022f1e11b4990e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a7ca27de4e7226e51022f1e11b4990e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/674f690aa7719521fc1cd23d4428bdfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/674f690aa7719521fc1cd23d4428bdfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76fc1b59c6a77da29a9ad779406ca7be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76fc1b59c6a77da29a9ad779406ca7be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/22e2df2c518d70d364e15963a1449ab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/22e2df2c518d70d364e15963a1449ab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/341852c667b168499683071986b1a036/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/341852c667b168499683071986b1a036/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d8d564169f5e63bd2a1cac33525b3ba6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d8d564169f5e63bd2a1cac33525b3ba6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/af67c20450c4b7944e54ed70f95148cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/af67c20450c4b7944e54ed70f95148cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0ec7ec756ef50e31965f1ae55dd3ea11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0ec7ec756ef50e31965f1ae55dd3ea11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/56ab4197bc232399c02a5674bfad7b5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/56ab4197bc232399c02a5674bfad7b5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4fccc57f7c88fa6b9ef4d8a04d4e60b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4fccc57f7c88fa6b9ef4d8a04d4e60b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4b215fab50297e39ca45cb7278637f73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4b215fab50297e39ca45cb7278637f73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bbb2059b18b632ade93b8dede7195ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bbb2059b18b632ade93b8dede7195ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8b278e46fcb53d5b35bcde6350042044/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8b278e46fcb53d5b35bcde6350042044/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2881b4eb9d2db15626b31b92f6145915/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/70dd06ccb6aced2bc91fe89f3f029d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/70dd06ccb6aced2bc91fe89f3f029d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/383e71942360aa2e9e6c2f9319fe91d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/383e71942360aa2e9e6c2f9319fe91d7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0fd967cbcdf28153f4f311910a55133c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0fd967cbcdf28153f4f311910a55133c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e2a693551722565e8c790eebb789d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e2a693551722565e8c790eebb789d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9c9df3186f0b9dee03a519124804039f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9c9df3186f0b9dee03a519124804039f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/857888bf50b543e6d3f0cb2ec6bc64af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/857888bf50b543e6d3f0cb2ec6bc64af/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f3129c51767b52de42d9aaa9d3f9271/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f3129c51767b52de42d9aaa9d3f9271/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4adc03e38c5c53f8a2af52ac807f906e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4adc03e38c5c53f8a2af52ac807f906e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f0e41fe2eaa22cae2b64f2b246b7784/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f0e41fe2eaa22cae2b64f2b246b7784/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/46a97cadc2e5da3e1e9cdc6a2ec870bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/saldi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/46a97cadc2e5da3e1e9cdc6a2ec870bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/14714f3cbae82775c654163dbe4cc93f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/saldi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/14714f3cbae82775c654163dbe4cc93f/AndroidManifest.xml:20:5-44
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		ADDED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/saldi/AndroidStudioProjects/pmmproject1/app/src/main/AndroidManifest.xml

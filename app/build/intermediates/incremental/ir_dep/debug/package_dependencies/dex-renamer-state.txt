@@ -1,0 +1,4 @@
+#Sat Jul 20 20:42:14 WIB 2019
+base.0=/home/saldi/AndroidStudioProjects/pmmproject1/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
