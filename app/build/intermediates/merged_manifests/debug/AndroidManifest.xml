@@ -29,7 +29,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="id.co.bspguard.android.pmmapps.Inventory.main_inventory" />
+        <activity android:name="id.co.bspguard.android.pmmapps.Bioskop.MainBioskop" />
+        <activity android:name="id.co.bspguard.android.pmmapps.Bioskop.Insert" />
+        <activity android:name="id.co.bspguard.android.pmmapps.Bioskop.Update" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.MainContact" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.Update" />
         <activity android:name="id.co.bspguard.android.pmmapps.ContactUser.Insert" />
@@ -46,11 +48,6 @@
         <activity android:name="id.co.bspguard.android.pmmapps.Hasil" />
         <activity android:name="id.co.bspguard.android.pmmapps.Contact" />
         <activity android:name="id.co.bspguard.android.pmmapps.MainActivity" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="id.co.bspguard.android.pmmapps.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

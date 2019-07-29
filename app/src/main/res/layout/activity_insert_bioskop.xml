@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/layoutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:gravity="bottom"
+            android:background="#fff"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INSERT"
+                android:textSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="18sp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeStepGranularity="2sp"
+                android:textColor="@color/textgreen"
+                android:id="@+id/recomended"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" JADWAL BIOSKOP"
+                android:textSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="18sp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeStepGranularity="2sp"
+                android:textColor="@color/textblue"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/recomended"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/formbioskop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:orientation="vertical"
+            android:background="@color/background"
+            android:layout_below="@id/layoutText"
+            android:layout_gravity="center_vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:theme="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="5dp">
+
+                <EditText
+                    android:id="@+id/inamafilm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:inputType="text"
+                    android:hint="Nama Film"
+                    android:textSize="14sp"
+                    android:padding="15dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:theme="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="5dp">
+
+                <EditText
+                    android:id="@+id/inoteater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:inputType="number"
+                    android:hint="Nomor Teater"
+                    android:textSize="14sp"
+                    android:padding="15dp" />
+            </android.support.v7.widget.CardView>
+
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:theme="@style/TextLabel"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--app:cardCornerRadius="5dp">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ialamat"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:gravity="top"-->
+                    <!--android:background="@color/colorWhite"-->
+                    <!--android:fitsSystemWindows="true"-->
+                    <!--android:breakStrategy="balanced"-->
+                    <!--android:inputType="textMultiLine"-->
+                    <!--android:singleLine="false"-->
+                    <!--android:hint="Alamat"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:padding="15dp" />-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <android.support.v7.widget.CardView
+                android:theme="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="5dp">
+
+                <EditText
+                    android:id="@+id/ijam_mulai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:inputType="text"
+                    android:hint="Jam Mulai"
+                    android:textSize="14sp"
+                    android:padding="15dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:theme="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="5dp">
+
+                <EditText
+                    android:id="@+id/ijam_selesai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:inputType="text"
+                    android:hint="Jam Selesai"
+                    android:textSize="14sp"
+                    android:padding="15dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:theme="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="5dp">
+
+                <EditText
+                    android:id="@+id/iharga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:inputType="text"
+                    android:hint="Harga"
+                    android:textSize="14sp"
+                    android:padding="15dp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                android:layout_width="fill_parent"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:background="@drawable/rounded"
+
+                android:text="Simpan"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

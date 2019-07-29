@@ -20,7 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Inventory.main_inventory"></activity>
+        <activity android:name=".Bioskop.MainBioskop"></activity>
+        <activity android:name=".Bioskop.Insert"></activity>
+        <activity android:name=".Bioskop.Update"></activity>
         <activity android:name=".ContactUser.MainContact" />
         <activity android:name=".ContactUser.Update" />
         <activity android:name=".ContactUser.Insert" />

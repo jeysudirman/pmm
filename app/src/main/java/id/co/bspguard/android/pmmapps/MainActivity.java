@@ -12,12 +12,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import id.co.bspguard.android.pmmapps.Bioskop.MainBioskop;
 import id.co.bspguard.android.pmmapps.ContactUser.Insert;
 import id.co.bspguard.android.pmmapps.ContactUser.MainContact;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button hitung, go_contact, signout, addcontact;
+    Button hitung, go_contact, signout, addcontact, go_bioskop;
     EditText alas, tinggi;
     TextView hasil;
     @Override
@@ -74,6 +75,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         addcontact.setOnClickListener(this);
 
+        go_bioskop = (Button) findViewById(R.id.bioskop);
+        go_bioskop.setOnClickListener(this);
+
     }
 
     public Double rumus(Double alas, Double tinggi){
@@ -116,6 +120,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent addContact = new Intent(MainActivity.this, Insert.class);
                 addContact.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 MainActivity.this.startActivity(addContact);
+                break;
+            case R.id.bioskop:
+                Intent goBioskop = new Intent(MainActivity.this, MainBioskop.class);
+                goBioskop.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainActivity.this.startActivity(goBioskop);
                 break;
             default:
                 break;
